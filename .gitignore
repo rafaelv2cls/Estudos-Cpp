@@ -29,6 +29,9 @@ bin/
 BuildLog.htm
 
 # Pastas e Arquivos de Solução e Projeto
+*.slnx
+*.vcxproj
+*.vcxproj.filters
 .vs/                   # Pasta de cache da solução (VS 2017 e posterior)
 *.suo                  # Arquivo de opções da solução (VS 2015 e anterior)
 *.user                 # Arquivos de configurações do usuário (user options)
