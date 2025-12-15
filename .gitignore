@@ -1,0 +1,64 @@
+# ===============================================
+# 1. ARQUIVOS GERAIS DE BUILD E BINÁRIOS (C/C++)
+# ===============================================
+
+# Executáveis
+*.exe
+*.dll
+*.so
+*.out
+
+# Arquivos objeto (intermediários da compilação)
+*.obj
+*.o
+
+# Pastas de saída de build (onde os executáveis vão)
+build/
+bin/
+
+# ===============================================
+# 2. VISUAL STUDIO (VS IDE COMPLETA)
+# ===============================================
+
+# Pastas e Arquivos de Build/Debug
+[Dd]ebug/
+[Rr]elease/
+*.pdb      # Arquivos de símbolos de debug
+*.ilk      # Arquivos de link incremental
+*.tlog     # Arquivos de log de build
+BuildLog.htm
+
+# Pastas e Arquivos de Solução e Projeto
+.vs/                   # Pasta de cache da solução (VS 2017 e posterior)
+*.suo                  # Arquivo de opções da solução (VS 2015 e anterior)
+*.user                 # Arquivos de configurações do usuário (user options)
+*.vcxproj.user         # Configurações do projeto específicas do usuário
+*.opensdf
+*.sdf
+*.ipch
+
+# Arquivos de cache e histórico
+*.ncb
+*.aps
+*.bsc
+*.sbr
+
+# ===============================================
+# 3. VISUAL STUDIO CODE (VS CODE)
+# ===============================================
+
+# Pasta de configurações do workspace (geralmente local)
+.vscode/
+
+# Arquivos de histórico ou cache
+.history/
+
+# ===============================================
+# 4. NEVOMIN (NVIM)
+# ===============================================
+
+# Arquivos de SWAP (salvamento de sessão)
+*.swp
+
+# Arquivos de backup
+*~
