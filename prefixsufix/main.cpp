@@ -56,7 +56,7 @@ string sufixo(string p, int n){
 		}
 	return b;
 	} else {
-		cout << "Tamanho de sufixo inválido (maior que 3 ou maior que a palavra)." << endl;
+		cout << "Tamanho de sufixo inválido." << endl;
 		return "";
 	}
 }
